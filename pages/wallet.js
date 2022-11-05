@@ -229,8 +229,8 @@ const  Wallet =  ( ) =>{
                                                          <li><b> Transaction id: </b>  <i> { `  ${transaction.id}  `}</i></li>  
                                                           <li><b> Type: </b>  <i> { `  ${transaction.type}  `}</i></li> 
                                                           <li><b> Amount: </b>  <i> { `  ${ transaction.amount}  MATIC `}</i> </li>
-                                                          <li> <a className='has-text-link' href={`https://etherscan.io/address/${transaction.reciever}`} target="_blank"><b> Reciever: </b>  <i> { `  ${transaction.reciever}  `}</i></a></li>
-                                                          <li><a className='has-text-link' href={`https://etherscan.io/address/${transaction.sender}`} target="_blank"><b> Sender: </b>  <i> { `  ${transaction.sender}  `}</i> </a></li>
+                                                          <li> <a className='has-text-link' href={`https://etherscan.io/address/${transaction.reciever}`} target="_blank" relative="noreferrer"><b> Reciever: </b>  <i> { `  ${transaction.reciever}  `}</i></a></li>
+                                                          <li><a className='has-text-link' href={`https://etherscan.io/address/${transaction.sender}`} target="_blank" relative="noreferrer"><b> Sender: </b>  <i> { `  ${transaction.sender}  `}</i> </a></li>
                                                              </ul>
                                                     </div>
                                                 </div>
